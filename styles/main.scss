@@ -1,0 +1,13 @@
+@import 'base/cssReset';
+@import 'base/customReset';
+@import 'components/button';
+@import 'helpers/variables';
+@import 'fonts/fonts';
+//@import 'helpers/forDevelopers';
+
+
+:root {
+  font-family: 'RobotoBold', Arial, Verdana, Tahoma, sans-serif;
+}
+
+
