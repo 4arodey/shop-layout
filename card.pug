@@ -1,0 +1,35 @@
+mixin section(link, name, paddingBottom)
+    section
+        if (paddingBottom)
+            .card-text
+                a(href=link).link
+                    div= name
+        else
+            .title
+                a(href=link)
+                    .link
+                        div
+                            p= name
+
+mixin image(img, alt, text)
+    section
+        if (text)
+                div.card-company
+                    div.img-container.corp.has-border
+                            a(href='/').link
+                                div.img-container
+                                    img(src=img alt = 'image')
+                            a(href='/').link
+                                p= text
+        else
+            .img-container.product
+                div.img-container
+                    img(src=img alt='image')
+
+
+link(rel='stylesheet' href='styles/main.css')
+div.card-container.has-border-radius
+    +section('/', 'Sneakers')
+    +image('https://images.sportsdirect.com/images/products/20347422_l.jpg', 'sneakers')
+    +section('/', 'Perfect sneakers a2', true)
+    +image('https://res.cloudinary.com/dsocr550v/image/upload/w_20,c_scale/v1561372272/download_gqcgrs.png', 'adidas', 'Adidas')

@@ -1,0 +1,39 @@
+@import '../helpers/variables';
+.panel-component {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #3fadee;
+  padding: 0.7rem;
+  margin-bottom: 23px;
+  &.border {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.category-panel-header {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.category-panel-all {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.panel-text {
+  margin: 0 0.5rem 0 0.5rem;
+  color: white;
+  font-weight: 600;
+  display: block;
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+}

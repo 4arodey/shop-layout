@@ -3,11 +3,18 @@
 @import 'components/button';
 @import 'helpers/variables';
 @import 'fonts/fonts';
+@import 'pages/item.scss';
+@import 'pages/cards.scss';
+@import 'pages/layout-item.scss';
+@import 'pages/navigation.scss';
+@import 'pages/panelComponent.scss';
 //@import 'helpers/forDevelopers';
 
 
 :root {
   font-family: 'RobotoBold', Arial, Verdana, Tahoma, sans-serif;
 }
+
+
 
 

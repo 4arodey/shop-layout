@@ -1,0 +1,17 @@
+.cards-container {
+  font-size: 1rem;
+  display: flex;
+  padding-bottom: 23px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .cards-container.last {
+    width: 470px; }
+
+.cards-preview-content {
+  display: flex;
+  flex-direction: column;
+  width: 222px;
+  margin: 10px; }
+
+/*# sourceMappingURL=cards.css.map */
